@@ -35,6 +35,7 @@ h6 {
   font-family: var(--font-primary);
 }
 
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -103,6 +104,10 @@ section {
 .section-header p {
   margin: 0 auto;
   color: var(--color-secondary-light);
+}
+section-header p {
+  margin: 0 auto;
+  color:#202b49;
 }
 
 @media (min-width: 1280px) {
@@ -247,7 +252,7 @@ section {
   padding: 8px 23px;
   border-radius: 4px;
   transition: 0.3s;
-  font-family: var(--font-secondary);
+  font-family: var(-font-secondary);
 }
 
 .header .btn-getstarted:hover,

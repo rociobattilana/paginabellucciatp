@@ -47,7 +47,7 @@
 
   /* Secondary colors */
   --color-secondary: #485664;
-  --color-secondary-light: #8f9fae;
+  --color-secondary-light: #202b49;
   --color-secondary-dark: #3a4753;
 
   --color-secondary-rgb: 72, 86, 100;
@@ -188,7 +188,7 @@
 .color-black { color: var(--color-black) !important; }
 
 /* Background Colors */
-.bg-default { background-color: var(--color-default) !important; }
+.bg-default { background-color:var(--color-default) !important; } 
 .bg-primary { background-color: var(--color-primary) !important; }
 .bg-primary-light { background-color: var(--color-primary-light) !important; }
 .bg-primary-dark { background-color: var(--color-primary-dark) !important; }
@@ -197,6 +197,29 @@
 .bg-secondary-dark { background-color: var(--color-secondary-dark) !important; }
 .bg-blue { background-color: var(--color-blue) !important; }
 .bg-indigo { background-color: var(--color-indigo) !important; }
+.bg-purple { background-color: var(--color-purple) !important; }
+.bg-pink { background-color: var(--color-pink) !important; }
+.bg-red { background-color: var(--color-red) !important; }
+.bg-orange { background-color: var(--color-orange) !important; }
+.bg-yellow { background-color: var(--color-yellow) !important; }
+.bg-green { background-color: var(--color-green) !important; }
+.bg-teal { background-color: var(--color-teal) !important; }
+.bg-cyan { background-color: var(--color-cyan) !important; }
+.bg-white { background-color: var(--color-white) !important; }
+.bg-gray { background-color: var(--color-gray) !important; }
+.bg-black { background-color: var(--color-black) !important; }
+
+
+/* Background Colors */
+.bg-default { background-color:var(--color-default) !important; } 
+.bg-primary { background-color: var(--color-primary) !important; }
+.bg-primary-light { background-color: var(--color-primary-light) !important; }
+.bg-primary-dark { background-color: var(--color-primary-dark) !important; }
+.bg-secondary { background-color: var(--color-secondary) !important; }
+.bg-secondary-light {#202b49}
+.bg-secondary-dark { background-color: var(--color-secondary-dark) !important; }
+.bg-blue { background-color: var(--color-blue) !important; }
+.bg-indigo { background-color: var(--color-indigo) !important; } 
 .bg-purple { background-color: var(--color-purple) !important; }
 .bg-pink { background-color: var(--color-pink) !important; }
 .bg-red { background-color: var(--color-red) !important; }
