@@ -231,12 +231,12 @@ section {
   font-size: 32px;
   font-weight: 300;
   color: var(--color-secondary);
-  font-family: var(--font-secondary);
+  font-family:'Abril Fatface', cursive;
 }
 
 .header .logo h1 span {
   color: var(--color-primary);
-  font-weight: 500;
+  font-weight: 200;
 }
 
 .header .btn-getstarted,
