@@ -236,7 +236,7 @@ section-header p {
   font-size: 32px;
   font-weight: 300;
   color: var(--color-secondary);
-  font-family:'Abril Fatface', cursive;
+  font-family:'Bevan', cursive;
 }
 
 .header .logo h1 span {
@@ -252,7 +252,7 @@ section-header p {
   padding: 8px 23px;
   border-radius: 4px;
   transition: 0.3s;
-  font-family: var(-font-secondary);
+  font-family: var(--font-primary bold);
 }
 
 .header .btn-getstarted:hover,
