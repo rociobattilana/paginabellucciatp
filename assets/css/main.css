@@ -300,7 +300,7 @@ section-header p {
     align-items: center;
     justify-content: space-between;
     padding: 14px 20px;
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary bold);
     font-size: 16px;
     font-weight: 400;
     color: rgba(var(--color-secondary-dark-rgb), 0.7);
