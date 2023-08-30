@@ -22,14 +22,14 @@
 
   /* Fonts */
   --font-default: 'Roboto', sans-serif; 
-  --font-primary: 'Roboto', default,sans-serif; 
+  --font-primary: 'Roboto',sans-serif; 
   --font-secondary: 'Bevan', sans-serif;
 
   /* Colors */
   /* The *-rgb color names are simply the RGB converted value of the corresponding color for use in the rgba() function */
 
   /* Default text color */
-  --color-default: #1a1f24;
+  --color-default: #202B49;
   --color-default-rgb: 26, 31, 36;
 
   /* Defult links color */
