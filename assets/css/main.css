@@ -252,7 +252,7 @@ section-header p {
   padding: 8px 23px;
   border-radius: 4px;
   transition: 0.3s;
-  font-family: var(--font-primary bold);
+  font-family: var(--font-primary);
 }
 
 .header .btn-getstarted:hover,
@@ -621,7 +621,7 @@ section-header p {
   transition: 0.5s;
   color: var(--color-white);
   background: var(--color-primary);
-  font-family: var(--font-secondary);
+  font-family: var(--font-pimary);
 }
 
 .hero-animated .btn-get-started:hover {
@@ -734,7 +734,7 @@ section-header p {
 }
 
 .hero .btn-get-started {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 1px;
@@ -751,7 +751,7 @@ section-header p {
   background: var(--color-primary);
   color: var(--color-white);
 }
-
+ 
 .hero .carousel-control-prev {
   justify-content: start;
 }
@@ -1015,7 +1015,7 @@ section-header p {
   transition: 0.5s;
   color: var(--color-white);
   background: var(--color-primary);
-  font-family: var(--font-secondary);
+  font-family: var(--font-primaryy);
 }
 
 .hero-static .btn-get-started:hover {
@@ -1026,8 +1026,8 @@ section-header p {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
-  font-family: var(--font-secondary);
-  color: var(--color-secondary);
+  font-family: var(--font-primary);
+  color: var(--color-primary);
   font-weight: 600;
 }
 
@@ -1166,7 +1166,7 @@ section-header p {
   padding: 12px 0;
   margin-bottom: -2px;
   border-radius: 0;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
 }
 
 .about .nav-link.active {

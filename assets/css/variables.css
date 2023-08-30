@@ -22,7 +22,7 @@
 
   /* Fonts */
   --font-default: 'Roboto', sans-serif; 
-  --font-primary: 'Roboto', sans-serif;
+  --font-primary: 'Roboto', default,sans-serif; 
   --font-secondary: 'Bevan', sans-serif;
 
   /* Colors */
