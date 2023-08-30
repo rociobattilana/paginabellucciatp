@@ -35,6 +35,13 @@ h6 {
   font-family: var(--font-primary);
 }
 
+h1 { font-family: var(--font-secondary);
+}
+
+h2 { font-family: var(--font-secondary);
+}
+
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -1015,7 +1022,7 @@ section-header p {
   transition: 0.5s;
   color: var(--color-white);
   background: var(--color-primary);
-  font-family: var(--font-primaryy);
+  font-family: var(--font-secondary);
 }
 
 .hero-static .btn-get-started:hover {
@@ -1026,7 +1033,7 @@ section-header p {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
-  font-family: var(--font-primary);
+  font-family: var(--secondary);
   color: var(--color-primary);
   font-weight: 600;
 }
