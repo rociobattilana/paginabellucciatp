@@ -432,7 +432,7 @@ section-header p {
   .navbar .megamenu ul li .active,
   .navbar .megamenu ul li .active:hover {
     color: var(--color-white);
-    background: var(--color-secondary);
+    background: var(--color-primary);
   }
 
   .navbar .dropdown .dropdown ul {
