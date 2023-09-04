@@ -197,13 +197,13 @@ section-header p {
 
 .scroll-top i {
   font-size: 24px;
-  color: var(--color-white);
+  color: var(--color-secondary);
   line-height: 0;
 }
 
 .scroll-top:hover {
   background: rgba(var(--color-primary-rgb), 0.85);
-  color: var(--color-white);
+  color: var(--color-secondary);
 }
 
 .scroll-top.active {
@@ -242,12 +242,12 @@ section-header p {
 .header .logo h1 {
   font-size: 32px;
   font-weight: 300;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   font-family:'Bevan', cursive;
 }
 
 .header .logo h1 span {
-  color: var(--color-secondary);
+  color: var(--color-primary);
   font-weight: 200;
 }
 
@@ -255,7 +255,7 @@ section-header p {
 .header .btn-getstarted:focus {
   font-size: 16px;
   color: var(--color-white);
-  background: var(--color-primary);
+  background: var(--color-primary); 
   padding: 8px 23px;
   border-radius: 4px;
   transition: 0.3s;
@@ -264,7 +264,7 @@ section-header p {
 
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
-  color: var(--color-white);
+  color: var(--color-primary);
   background: rgba(var(--color-primary-rgb), 0.85);
 }
 
