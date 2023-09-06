@@ -23,13 +23,13 @@
   /* Fonts */
   --font-default: 'Roboto', sans-serif; 
   --font-primary: 'Roboto',sans-serif; 
-  --font-secondary: 'Bevan', sans-serif;
+  --font-secondary: 'Bevan',italic, serif;
 
   /* Colors */
   /* The *-rgb color names are simply the RGB converted value of the corresponding color for use in the rgba() function */
 
   /* Default text color */
-  --color-default: #202B49;
+  --color-default: #163E32; 
   --color-default-rgb: 26, 31, 36;
 
   /* Defult links color */
@@ -46,9 +46,9 @@
   --color-primary-dark-rgb: 1, 137, 161;
 
   /* Secondary colors */
-  --color-secondary: #202B49;
-  --color-secondary-light: #202B49;
-  --color-secondary-dark: #202B49;
+  --color-secondary: #163E32;
+  --color-secondary-light: #163E32;
+  --color-secondary-dark: #163E32;
 
   --color-secondary-rgb: 72, 86, 100;
   --color-secondary-light-rgb: 143, 159, 174;
