@@ -1075,7 +1075,7 @@ section-header p {
 .featured-services .service-item {
   padding: 30px;
   transition: all ease-in-out 0.4s;
-  background: var(--color-white);
+  background: #FFEDF9;
   height: 100%;
 }
 
