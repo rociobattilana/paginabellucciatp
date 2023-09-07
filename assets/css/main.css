@@ -227,10 +227,11 @@ section-header p {
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
+  background-color: #587464;
 }
 
 .header.sticked {
-  background: #202B49;
+  background: #FFEDF9;
   box-shadow: 0px 2px 20px rgba(var(--color-secondary-rgb), 0.1);
 }
 
@@ -242,12 +243,12 @@ section-header p {
 .header .logo h1 {
   font-size: 32px;
   font-weight: 300;
-  color: var(--color-primary);
+  color: var(--color-white);
   font-family:'Bevan', cursive;
 }
 
 .header .logo h1 span {
-  color: var(--color-primary);
+  color: var(--color-white);
   font-weight: 200;
 }
 
@@ -1060,6 +1061,7 @@ section-header p {
   .hero-static p {
     font-size: 18px;
     margin-bottom: 30px;
+    background-color: #163E32;
   }
 
   .hero-static .btn-get-started,
@@ -1206,6 +1208,7 @@ section-header p {
 --------------------------------------------------------------*/
 .clients {
   padding: 0 0 60px 0;
+  background-color: #FFEDF9;
 }
 
 .clients .swiper-slide img {
