@@ -622,9 +622,8 @@ section-header p {
 }
 
 .hero-animated .btn-get-started {
-  font-size: 16px;
+    font-size: 16px;
     font-weight: 400;
-    display: inline-block;
     padding: 10px 28px;
     border-radius: 4px;
     transition: 0.5s;
@@ -745,14 +744,13 @@ section-header p {
 
 .hero .btn-get-started {
   font-size: 16px;
-    font-weight: 400;
-    display: inline-block;
-    padding: 10px 28px;
-    border-radius: 4px;
-    transition: 0.5s;
-    color: var(--color-white);
-    background: var(--color-primary);
-    font-family: var(--font-secondary);
+  font-weight: 400;
+  padding: 10px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: var(--color-white);
+  background: var(--color-primary);
+  font-family: var(--font-secondary);;
 }
 
 .hero .btn-get-started:hover {
@@ -929,14 +927,13 @@ section-header p {
 
 .hero-fullscreen .btn-get-started {
   font-size: 16px;
-  font-weight: 400;
-  display: inline-block;
-  padding: 10px 28px;
-  border-radius: 4px;
-  transition: 0.5s;
-  color: var(--color-white);
-  background: var(--color-primary);
-  font-family: var(--font-secondary);
+    font-weight: 400;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: var(--color-white);
+    background: var(--color-primary);
+    font-family: var(--font-secondary);
 }
 
 .hero-fullscreen .btn-get-started:hover {
@@ -1017,15 +1014,14 @@ section-header p {
 }
 
 .hero-static .btn-get-started {
-  font-size: 16px;
-  font-weight: 400;
-  display: inline-block;
-  padding: 10px 28px;
-  border-radius: 4px;
-  transition: 0.5s;
-  color: var(--color-white);
-  background: var(--color-primary);
-  font-family: var(--font-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: var(--color-white);
+    background: var(--color-primary);
+    font-family: var(--font-secondary);
 }
 
 .hero-static .btn-get-started:hover {
@@ -1072,6 +1068,17 @@ section-header p {
   .hero-static .btn-watch-video {
     font-size: 14px;
   }
+  
+  .hero .btn-get-started
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: var(--color-white);
+    background: var(--color-primary);
+    font-family: var(--font-secondary);
+
   
 }
 
@@ -3195,3 +3202,5 @@ section-header p {
   background: var(--color-primary);
   text-decoration: none;
 }
+
+
