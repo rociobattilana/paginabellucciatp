@@ -580,10 +580,11 @@ section-header p {
 
 .hero-animated h2 {
   margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 300;
+  font-size: 60px;
+  font-weight: 400;
   color: var(--color-secondary);
   font-family: var(--font-secondary);
+  font-style: italic;
 }
 
 .hero-animated h2 span {
@@ -718,9 +719,10 @@ section-header p {
 .hero h2 {
   color: var(--color-secondary);
   margin-bottom: 25px;
-  font-size: 48px;
-  font-weight: 300;
+  font-size: 60px;
+  font-weight: 400;
   animation: fadeInDown 1s both 0.2s;
+  font-style: italic;
 }
 
 @media (max-width: 768px) {
@@ -907,10 +909,11 @@ section-header p {
 
 .hero-fullscreen h2 {
   margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 300;
+  font-size: 60px;
+  font-weight: 400;
   color: var(--color-secondary);
   font-family: var(--font-secondary);
+  font-style: italic;
 }
 
 .hero-fullscreen h2 span {
@@ -995,10 +998,11 @@ section-header p {
 
 .hero-static h2 {
   margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 300;
+  font-size: 60px;
+  font-weight: 400;
   color: var(--color-secondary);
   font-family: var(--font-secondary);
+  font-style: italic;
 }
 
 .hero-static h2 span {
