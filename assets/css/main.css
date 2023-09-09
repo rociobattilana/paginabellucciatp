@@ -2242,6 +2242,7 @@ section-header p {
 --------------------------------------------------------------*/
 .contact .map {
   margin-bottom: 40px;
+  background-color: #FFEDF9;
 }
 
 .contact .map iframe {
@@ -2254,11 +2255,13 @@ section-header p {
   padding: 40px;
   box-shadow: 0px 2px 15px rgba(var(--color-black-rgb), 0.1);
   overflow: hidden;
+  background-color: #FFEDF9;
 }
 
 .contact .info h3 {
   font-weight: 600;
   font-size: 24px;
+  background-color:#163E32;
 }
 
 .contact .info p {
@@ -2297,7 +2300,7 @@ section-header p {
 
 .contact .php-email-form {
   width: 100%;
-  background: var(--color-white);
+  background: var(--color-secondary);
 }
 
 .contact .php-email-form .form-group {
@@ -2306,7 +2309,7 @@ section-header p {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: var(--color-white);
+  color: var(--color-secondary);
   background: var(--color-red);
   text-align: left;
   padding: 15px;
@@ -2319,7 +2322,7 @@ section-header p {
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: var(--color-white);
+  color: var(--color-secondary);
   background: var(--color-green);
   text-align: center;
   padding: 15px;
@@ -2328,7 +2331,7 @@ section-header p {
 
 .contact .php-email-form .loading {
   display: none;
-  background: var(--color-white);
+  background: var(--color-secondary);
   text-align: center;
   padding: 15px;
 }
@@ -2351,6 +2354,7 @@ section-header p {
   border-radius: 0px;
   box-shadow: none;
   font-size: 14px;
+  color: #163E32;
 }
 
 .contact .php-email-form input[type=text]:focus,
