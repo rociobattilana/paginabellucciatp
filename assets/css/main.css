@@ -1076,10 +1076,11 @@ section-header p {
 # Featured Services Section
 --------------------------------------------------------------*/
 .featured-services .service-item {
-  padding: 50px;
+  padding: 60px;
   transition: all ease-in-out 0.4s;
   background: transparent;
   height: 100%;
+  
 }
 
 .featured-services .service-item .icon {
@@ -1096,17 +1097,22 @@ section-header p {
   font-weight: 600;
   margin-bottom: 15px;
   font-size: 24px;
+  color: rgba(var(--color-primary), 0.8);
+  align-items: center;
 }
 
 .featured-services .service-item h4 a {
   color: var(--color-secondary);
   transition: ease-in-out 0.3s;
+  color: rgba(var(--color-primary), 0.8);
+  align-items: center;
 }
 
 .featured-services .service-item p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  align-items: center;
 }
 
 .featured-services .service-item:hover {
@@ -1116,6 +1122,7 @@ section-header p {
 
 .featured-services .service-item:hover h4 a {
   color: var(--color-primary);
+  align-items: center;
 }
 
 /*--------------------------------------------------------------
@@ -1131,7 +1138,7 @@ section-header p {
   inset: -60px 0 0 -60px;
   z-index: -1;
   content: "";
-  background: url("../img/about-bg.png") top left;
+  background: url("../img/beneficios/background.png") top left;
   background-repeat: no-repeat;
 }
 
@@ -1152,6 +1159,7 @@ section-header p {
   font-size: 32px;
   margin-bottom: 20px;
   color: white;
+  -ms-grid-column-align: center;
 }
 
 @media (max-width: 768px) {
