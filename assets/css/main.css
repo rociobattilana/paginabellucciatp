@@ -3043,6 +3043,7 @@ section-header p {
 .footer {
   color: var(--color-white);
   font-size: 14px;
+  font-family: var(--font-primary);
 }
 
 .footer .footer-content {
@@ -3055,16 +3056,17 @@ section-header p {
 }
 
 .footer .footer-content .footer-info h3 {
-  font-size: 28px;
+  font-size: 26px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
-  text-transform: uppercase;
+  font-family: var(--font-secondary);
 }
 
 .footer .footer-content .footer-info h3 span {
   color: var(--color-primary);
+  font-family: var(--font-secondary);
 }
 
 .footer .footer-content .footer-info p {
