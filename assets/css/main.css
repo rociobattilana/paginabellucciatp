@@ -1069,16 +1069,6 @@ section-header p {
     font-size: 14px;
   }
   
-  .hero .btn-get-started
-    font-size: 16px;
-    font-weight: 400;
-    padding: 10px 28px;
-    border-radius: 4px;
-    transition: 0.5s;
-    color: var(--color-white);
-    background: var(--color-primary);
-    font-family: var(--font-secondary);
-
   
 }
 
@@ -1086,9 +1076,9 @@ section-header p {
 # Featured Services Section
 --------------------------------------------------------------*/
 .featured-services .service-item {
-  padding: 30px;
+  padding: 50px;
   transition: all ease-in-out 0.4s;
-  background: #FFEDF9;
+  background: transparent;
   height: 100%;
 }
 
