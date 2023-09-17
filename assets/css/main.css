@@ -114,7 +114,7 @@ section {
 }
 section-header p {
   margin: 0 auto;
-  color:#202b49;
+  color:#163E32;
 }
 
 @media (min-width: 1280px) {
@@ -265,8 +265,8 @@ section-header p {
 
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
-  color: var(--color-primary);
-  background: rgba(var(--color-primary-rgb), 0.85);
+  color: var(--color-primary --color-primary-dark-rgb);
+  background: rgba(var(--color-primary-dark-rgb), 0.85);
 }
 
 @media (max-width: 1279px) {
@@ -573,10 +573,12 @@ section-header p {
   width: 100%;
   min-height: 50vh;
   background: url("../img/hero-bg.png") center center;
+  background-color: #163E32;
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;
 }
+
 
 .hero-animated h2 {
   margin: 0 0 10px 0;
@@ -629,7 +631,7 @@ section-header p {
     transition: 0.5s;
     color: var(--color-white);
     background: var(--color-primary);
-    font-family: var(--font-secondary);
+    font-family: var(--font-ry);
 }
 
 .hero-animated .btn-get-started:hover {
@@ -659,6 +661,12 @@ section-header p {
 
 .hero-animated .btn-watch-video:hover i {
   color: rgba(var(--color-primary-rgb), 0.8);
+}
+.hero-animated {
+  background-color: #163E32;
+  width: 1645px;
+  height: 1045px;
+  flex-shrink: 0;
 }
 
 @media (max-width: 640px) {
@@ -703,6 +711,7 @@ section-header p {
   flex-direction: column;
   justify-content: center;
   padding: 140px 0 60px 0;
+  background-color: #163E32;
 }
 
 .hero .carousel-item {
@@ -887,6 +896,7 @@ section-header p {
   width: 100%;
   min-height: 100vh;
   background: url("../img/hero-fullscreen-bg.jpg") center center;
+  background-color: #163E32;
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;
@@ -894,7 +904,7 @@ section-header p {
 
 .hero-fullscreen:before {
   content: "";
-  background: rgba(var(--color-white-rgb), 0.85);
+  background: rgba(var(--color-secondary), 0.85);
   position: absolute;
   inset: 0;
 }
@@ -965,6 +975,13 @@ section-header p {
   color: rgba(var(--color-primary-rgb), 0.8);
 }
 
+.hero-fullscreen {
+  background-color: #163E32;
+  width: 1645px;
+  height: 1045px;
+  flex-shrink: 0;
+}
+
 @media (max-width: 640px) {
   .hero-fullscreen h2 {
     font-size: 32px;
@@ -988,6 +1005,7 @@ section-header p {
   width: 100%;
   min-height: 50vh;
   background: url("../img/hero-bg.png") center center;
+  background-color: #163E32;
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;
@@ -1068,6 +1086,12 @@ section-header p {
   .hero-static .btn-watch-video {
     font-size: 14px;
   }
+  .hero-static { 
+  background-color: #163E32;
+  width: 1645px;
+  height: 1045px;
+  flex-shrink: 0;
+}
   
   
 }
@@ -1124,21 +1148,20 @@ section-header p {
   color: var(--color-primary);
   align-items: center;
 }
-
 /*--------------------------------------------------------------
-# About Section
+# Frase Section
 --------------------------------------------------------------*/
-.about .about-img {
+.frase .frase {
   position: relative;
   margin: 60px 0 0 60px;
 }
 
-.about .about-img:before {
+.frase .frase-background {
   position: absolute;
   inset: -60px 0 0 -60px;
   z-index: -1;
   content: "";
-  background: url("../img/beneficios/background.png") top left;
+  background: rgba(var(--color-secondary), 0.8);
   background-repeat: no-repeat;
 }
 
@@ -1177,7 +1200,7 @@ section-header p {
 }
 
 .about .nav-link {
-  background: none;
+  background: rgba(var(--color-primary-light), 0.8);
   font-size: 18px;
   font-weight: 400;
   color: var(--color-white);
@@ -1189,8 +1212,108 @@ section-header p {
 
 .about .nav-link.active {
   color: var(--color-white);
-  background: none;
+  background: rgba(var(--color-primary-light), 0.8);
   border-bottom: 3px solid var(--color-primary);
+}
+
+@media (max-width: 575px) {
+  .about .nav-link {
+    font-size: 16px;
+  }
+}
+
+.about .tab-content h4 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+  color: white;
+}
+
+.about .tab-content i {
+  font-size: 22px;
+  line-height: 0;
+  margin-right: 8px;
+  color: var(--color-white);
+}
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+.about .about-img {
+  position: relative;
+  margin: 60px 0 0 60px;
+ 
+}
+
+
+.about .about-img:before {
+  position: absolute;
+  inset: -60px 0 0 -60px;
+  z-index: -1;
+  content: "";
+  background: url("../img/beneficios/background.png") top left;
+  background-color: #163E32;
+  background-repeat: no-repeat;
+}
+.about .about-img:beneficios {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+@media (max-width: 575px) {
+  .about .about-img {
+    margin: 30px 0 0 30px;
+  }
+
+  .about .about-img:before {
+    inset: -30px 0 0 -30px;
+  }
+}
+
+.about h3 {
+  color: var(--color-white);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: white;
+  -ms-grid-column-align: center;
+}
+
+@media (max-width: 768px) {
+  .about h3 {
+    font-size: 28px;
+  }
+}
+
+.about .nav-pills {
+  border-bottom: 1px solid rgba(var(--color-secondary-rgb), 0.2);
+}
+
+.about .nav-pills li+li {
+  margin-left: 40px;
+}
+
+.about .nav-link {
+  background: rgba(var(--color-secondary), 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-white);
+  padding: 12px 0;
+  margin-bottom: -2px;
+  border-radius: 0;
+  font-family: var(--font-primary);
+}
+
+.about .nav-link.active {
+  color: var(--color-white);
+  background: color rgba(var(--color-secondary), 0.8);
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.about-background {
+  background-color: #163E32;
+  width: 1645px;
+  height: 1045px;
+  flex-shrink: 0;
 }
 
 @media (max-width: 575px) {
@@ -1659,7 +1782,7 @@ section-header p {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/testimonials/Group\ 233.png") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1774,7 +1897,7 @@ section-header p {
 .pricing .pricing-item {
   padding: 60px 40px;
   box-shadow: 0 3px 20px -2px rgba(var(--color-gray-rgb), 0.15);
-  background: var(--color-white);
+  background:none;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -1784,8 +1907,8 @@ section-header p {
 }
 
 .pricing .pricing-header {
-  background: linear-gradient(rgba(var(--color-secondary-rgb), 0.9), rgba(var(--color-secondary-rgb), 0.9)), url("../img/pricing-bg.jpg") center center;
-  background-size: cover;
+  background: url("assets/img/suscripciones/caja 2 1.png") center center cover;
+  background-size: cover center;
   text-align: center;
   padding: 40px;
   margin: -60px -40px 0;
@@ -1795,7 +1918,8 @@ section-header p {
   font-weight: 600;
   margin-bottom: 5px;
   font-size: 36px;
-  color: var(--color-white);
+  color: var(--color-white)
+  
 }
 
 .pricing h4 {
