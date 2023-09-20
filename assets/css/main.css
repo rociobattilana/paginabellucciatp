@@ -1397,8 +1397,14 @@ align-items: center;
 /*--------------------------------------------------------------
 # Pablo zitarosa
 --------------------------------------------------------------*/
-.pablo {
-  background-image: url("../img/pablozitarosa/fondo\ 4.png") no-repeat;
+.pablo .pablo-body {
+  background-image: url("../img/pablozitarosa/fondo 4.jpg") no-repeat;
+  background-size: cover;
+
+
+}
+.pablo-zitarosa {
+  background-image: url("../img/pablozitarosa/fondo 4.jpg") no-repeat;
   background-size: cover;
   
 }
@@ -1474,7 +1480,7 @@ align-items: center;
 }
 
 .pablo-background {
-  background-color: #163E32;
+  background-image: url(assets/img/pablozitarosa/fondo4.jpg);
   width: 1645px;
   height: 1045px;
   flex-shrink: 0;
@@ -1498,6 +1504,9 @@ align-items: center;
   line-height: 0;
   margin-right: 8px;
   color: var(--color-default);
+}
+.pablo .pablo-body {
+  background-image: url(fondo4.jpg)
 }
 /*--------------------------------------------------------------
 # Clients Section
