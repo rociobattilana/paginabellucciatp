@@ -39,7 +39,7 @@
   /* Primay colors */
   --color-primary: #fa3949;
   --color-primary-light: #ffedf9;
-  --color-primary-dark:  #fa3949;
+  --color-primary-dark:  #FFEDED;
 
   --color-primary-rgb: 14, 162, 189;
   --color-primary-light-rgb: 30, 195, 224;
@@ -128,7 +128,7 @@
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
+  --bs-danger: #163e32;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-primary-rgb: var(--color-primary-rgb);
@@ -153,7 +153,7 @@
   --bs-body-color: var(--color-default);
   --bs-body-bg: #FFEDF9; 
   --bs-hero-carousel-rgb: var(--color-secondary)
-
+  
 }
 
 /*--------------------------------------------------------------

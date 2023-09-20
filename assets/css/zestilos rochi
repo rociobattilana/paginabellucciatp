@@ -17,6 +17,22 @@ color: #163E32;
 
 .hero-animated {
     background-color: #163E32;
+};
+
+hero {
+    background-color: #163E32;
+    background-size:cover;
+    background-color: #163E32
+};
+
+.hero-fullscreen {
+    background-color: #163E32;
+};
+
+.hero-static {
+     background-color: #163E32;
+};
+
     
 
 
