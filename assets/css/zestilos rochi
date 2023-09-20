@@ -1,0 +1,24 @@
+h1 {
+    color: #ffffff;
+};
+
+h2 {
+    color: #163E32;
+};
+
+h3{
+    color: #163E32;
+    };
+
+
+p {
+color: #163E32;
+};
+
+.hero-animated {
+    background-color: #163E32;
+    
+
+
+
+

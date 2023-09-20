@@ -1269,12 +1269,12 @@ section-header p {
 }
 
 .about h3 {
-  color: var(--color-white);
+  color: #163E32;
   font-family: var(--font-secondary);
   font-weight: 300;
   font-size: 32px;
   margin-bottom: 20px;
-  color: white;
+  color: #163E32;;
   -ms-grid-column-align: center;
 }
 
