@@ -1394,7 +1394,111 @@ align-items: center;
   margin-right: 8px;
   color: var(--color-default);
 }
+/*--------------------------------------------------------------
+# Pablo zitarosa
+--------------------------------------------------------------*/
+.pablo {
+  background-image: url("../img/pablozitarosa/fondo\ 4.png") no-repeat;
+  background-size: cover;
+  
+}
+.pablo .pablo-img {
+  position: relative;
+  margin: 60px 0 0 60px;
+ 
+}
 
+
+.pablo .pablo-img:before {
+  position: absolute;
+  inset: -60px 0 0 -60px;
+  z-index: -1;
+  content: "";
+  background: url("../img/beneficios/background.png") top left;
+  background-color: #163E32;
+  background-repeat: no-repeat;
+}
+.pablo .pablo-img:beneficios {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+@media (max-width: 575px) {
+  .pablo .pablo-img {
+    margin: 30px 0 0 30px;
+  }
+
+  .pablo .pablo-img:before {
+    inset: -30px 0 0 -30px;
+  }
+}
+
+.pablo h3 {
+  color: #163E32;
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #163E32;;
+  -ms-grid-column-align: center;
+}
+
+@media (max-width: 768px) {
+  .pablo h3 {
+    font-size: 28px;
+  }
+}
+
+.pablo .nav-pills {
+  border-bottom: 1px solid rgba(var(--color-secondary-rgb), 0.2);
+}
+
+.pablo .nav-pills li+li {
+  margin-left: 40px;
+}
+
+.pablo .nav-link {
+  background: rgba(var(--color-secondary), 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-default);
+  padding: 12px 0;
+  margin-bottom: -2px;
+  border-radius: 0;
+  font-family: var(--font-primary);
+}
+
+.pablo .nav-link.active {
+  color: var(--color-default);
+  background: color rgba(var(--color-secondary), 0.8);
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.pablo-background {
+  background-color: #163E32;
+  width: 1645px;
+  height: 1045px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 575px) {
+  .pablo .nav-link {
+    font-size: 16px;
+  }
+}
+
+.pablo .tab-content h4 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+  color: rgba(var(--color-default-rgb), 0.4);
+}
+
+.pablo .tab-content i {
+  font-size: 22px;
+  line-height: 0;
+  margin-right: 8px;
+  color: var(--color-default);
+}
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
@@ -1949,23 +2053,27 @@ align-items: center;
 # Pricing Section
 --------------------------------------------------------------*/
 .fondo {
-  background-image: url(bg.png);
+  background size:cover: url(bg.png);
 }
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
 .pricing {
-  background: rgba(var(--color-secondary-rgb), 0.04);
+  background-image: url(bg.png);
+  background-size: cover;
 }
 
 .fondo {
   background-image: url(bg.png);
+  background-size: cover;
 }
 
 .pricing .pricing-item {
+  background-image: url(bg.png);
+  background-size: cover;
   padding: 60px 40px;
   box-shadow: 0 3px 20px -2px rgba(var(--color-gray-rgb), 0.15);
-  background:none;
+  background-image: url(bg.png);
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -2070,6 +2178,10 @@ align-items: center;
 .pricing .featured .buy-btn {
   background: var(--color-primary);
   color: var(--color-white);
+}
+.fondo {
+  background-image: url(bg.png);
+  background-size: cover;
 }
 
 /*--------------------------------------------------------------
