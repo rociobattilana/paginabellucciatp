@@ -845,6 +845,23 @@ section {
   background: var(--color-primary);
 }
 
+
+.hero  .btn-danger { 
+font-size: 16px;
+font-weight: 400;
+display: inline-block;
+padding: 28px;
+border-radius: 4px;
+transition: 0.5s;
+color: var(--color-white);
+background: #fa3949;
+background-color: #fa3949;
+font-family: var(--font-primary);
+width: 247px;
+height: 54px;
+align-items: center;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -984,6 +1001,23 @@ section {
   flex-shrink: 0;
 }
 
+
+.hero-fullscreen .btn-danger { 
+font-size: 16px;
+font-weight: 400;
+display: inline-block;
+padding: 10px 28px;
+border-radius: 4px;
+transition: 0.5s;
+color: var(--color-white);
+background: #fa3949;
+background-color: #fa3949;
+font-family: var(--font-primary);
+width: 247px;
+height: 54px;
+align-items: center;
+}
+
 @media (max-width: 640px) {
   .hero-fullscreen h2 {
     font-size: 32px;
@@ -1012,6 +1046,26 @@ section {
   position: relative;
   padding: 120px 0 60px;
 }
+.hero-static .button-suscribirse { 
+  background-color: #fa3949;
+}
+
+  .hero-static .btn-danger { 
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-block;
+  padding: 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: var(--color-white);
+  background: #fa3949;
+  background-color: #fa3949;
+  font-family: var(--font-primary);
+  width: 247px;
+  height: 54px;
+  align-items: center;
+  }
+
 
 .hero-static h2 {
   margin: 0 0 10px 0;
@@ -1043,6 +1097,7 @@ section {
     color: var(--color-white);
     background: #fa3949;
     font-family: var(--font-secondary);
+    
 }
 
 .hero-static .btn-get-started:hover {
