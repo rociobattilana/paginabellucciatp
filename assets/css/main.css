@@ -716,6 +716,22 @@ section {
   background-color: #163E32;
 }
 
+.button-suscribirse { 
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-white);
+  align-items: center;
+  background: var(--color-primary); 
+  padding: 8px 8px;
+  border-radius: 4px;
+  transition: 0.3s;
+  font-family: var(--font-primary);
+  width: 247px;
+  
+
+  }
+
+
 .hero .carousel-item {
   overflow: hidden;
 }
@@ -1220,7 +1236,7 @@ align-items: center;
   inset: -60px 0 0 -60px;
   z-index: -1;
   content: "";
-  background: rgba(var(--color-secondary), 0.8);
+  background:rgba(var(--color-primary-dark-rgb), 0.85);
   background-repeat: no-repeat;
 }
 
@@ -1394,51 +1410,56 @@ align-items: center;
   margin-right: 8px;
   color: var(--color-default);
 }
+.about .about-background {
+  background-color: rgba(var(--color-primary-dark-rgb), 0.85);
+  background-size: cover;
+}
+ 
 /*--------------------------------------------------------------
-# Pablo zitarosa
+# Pablozitarosa
 --------------------------------------------------------------*/
-.pablo .pablo-body {
-  background-image: url("../img/pablozitarosa/fondo 4.jpg") no-repeat;
+.pablozitarosa .pablozitarosa-body {
+  background-image: url("../img/beneficios/background.png");
   background-size: cover;
 
 
 }
-.pablo-zitarosa {
-  background-image: url("../img/pablozitarosa/fondo 4.jpg") no-repeat;
+.pablozitarosa {
+  background-image: url("../img/beneficios/background.png") no-repeat;
   background-size: cover;
   
 }
-.pablo .pablo-img {
+.pablozitarosa .pablozitarosa-img {
   position: relative;
   margin: 60px 0 0 60px;
  
 }
 
 
-.pablo .pablo-img:before {
+.pablozitarosa .pablozitarosa-img:before {
   position: absolute;
   inset: -60px 0 0 -60px;
   z-index: -1;
   content: "";
-  background: url("../img/beneficios/background.png") top left;
-  background-color: #163E32;
+  background-image: url("../img/beneficios/background.png") top left;
+  background-size: cover;
   background-repeat: no-repeat;
 }
-.pablo .pablo-img:beneficios {
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+/*.pablozitarosa .pablozitarosa-img:beneficios {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;*/
 
-}
+
 @media (max-width: 575px) {
-  .pablo .pablo-img {
+  .pablozitarosa .pablozitarosa-img {
     margin: 30px 0 0 30px;
   }
 
-  .pablo .pablo-img:before {
+  .pablozitarosa .pablozitarosa-img:before {
     inset: -30px 0 0 -30px;
   }
 }
 
-.pablo h3 {
+.pablozitarosa h3 {
   color: #163E32;
   font-family: var(--font-secondary);
   font-weight: 300;
@@ -1454,15 +1475,15 @@ align-items: center;
   }
 }
 
-.pablo .nav-pills {
+.pablozitarosa .nav-pills {
   border-bottom: 1px solid rgba(var(--color-secondary-rgb), 0.2);
 }
 
-.pablo .nav-pills li+li {
+.pablozitarosa .nav-pills li+li {
   margin-left: 40px;
 }
 
-.pablo .nav-link {
+.pablozitarosa .nav-link {
   background: rgba(var(--color-secondary), 0.8);
   font-size: 18px;
   font-weight: 400;
@@ -1473,14 +1494,15 @@ align-items: center;
   font-family: var(--font-primary);
 }
 
-.pablo .nav-link.active {
+.pablozitarosa .nav-link.active {
   color: var(--color-default);
   background: color rgba(var(--color-secondary), 0.8);
   border-bottom: 3px solid var(--color-primary);
+  background-image: url(assets/img/pablozitarosa/fondo.jpg);
 }
 
-.pablo-background {
-  background-image: url(assets/img/pablozitarosa/fondo4.jpg);
+.pablozitarosa-background {
+  background-image: url(assets/img/beneficios/background.jpg);
   width: 1645px;
   height: 1045px;
   flex-shrink: 0;
@@ -1492,22 +1514,23 @@ align-items: center;
   }
 }
 
-.pablo .tab-content h4 {
+.pablozitarosa .tab-content h4 {
   font-size: 18px;
   margin: 0;
   font-weight: 700;
   color: rgba(var(--color-default-rgb), 0.4);
 }
 
-.pablo .tab-content i {
+.pablozitarosa .tab-content i {
   font-size: 22px;
   line-height: 0;
   margin-right: 8px;
   color: var(--color-default);
 }
-.pablo .pablo-body {
-  background-image: url(fondo4.jpg)
+.pablozitarosa .pablozitarosa-body {
+  background-image: url(fondo.jpg);
 }
+
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
@@ -2068,7 +2091,7 @@ align-items: center;
 # Pricing Section
 --------------------------------------------------------------*/
 .pricing {
-  background-image: url(bg.png);
+  background-image: url(/assets/img/pricing/Group\ 249.png);
   background-size: cover;
 }
 
@@ -2092,24 +2115,36 @@ align-items: center;
 }
 
 .pricing .pricing-header {
-  background: url("assets/img/suscripciones/caja 2 1.png") center center cover;
-  background-size: cover center;
+  background: url("assets/img/pricing/Group 249.png") center;
+  background-size: cover;
+  background-size: center;
   text-align: center;
-  padding: 40px;
+  align-items: center;
+  padding: 4px;
   margin: -60px -40px 0;
+  size-adjust: flex;
+  size: cover;
+  
 }
 
+.pricing .pricing-header-image {
+  width: 382. 167px;
+  height: 573. 25px;
+  align-items: center;
+  padding: 382px 573px;
+  size: 287.99. 732.28px;
+}*/
 .pricing h3 {
   font-weight: 600;
   margin-bottom: 5px;
   font-size: 36px;
-  color: var(--color-white)
+  color: var(--color-default)
   
 }
 
 .pricing h4 {
   font-size: 48px;
-  color: var(--color-white);
+  color: var(--color-default);
   font-weight: 400;
   font-family: var(--font-primary);
   margin-bottom: 0;
@@ -2120,7 +2155,7 @@ align-items: center;
 }
 
 .pricing h4 span {
-  color: rgba(var(--color-white-rgb), 0.6);
+  color: rgba(var(--color-default), 0.6);
   font-size: 24px;
 }
 
@@ -2139,18 +2174,18 @@ align-items: center;
 }
 
 .pricing ul i {
-  color: var(--color-primary);
+  color: var(--color-white);
   font-size: 36px;
   padding-right: 3px;
   line-height: 0;
 }
 
 .pricing ul .na {
-  color: rgba(var(--color-gray-rgb), 0.5);
+  color: rgba(var(--color-white), 0.5);
 }
 
 .pricing ul .na i {
-  color: rgba(var(--color-gray-rgb), 0.5);
+  color: rgba(var(--color-white-rgb), 0.5);
   font-size: 24px;
   padding-left: 4px;
 }
@@ -2178,11 +2213,14 @@ align-items: center;
 
 .pricing .featured {
   border-color: var(--color-primary);
+  background-color: #587464;
 }
 
-.pricing .featured .pricing-header {
-  background: linear-gradient(rgba(var(--color-primary-rgb), 0.9), rgba(var(--color-primary-rgb), 0.9)), url("../img/pricing-bg.jpg") center center;
-}
+/*.pricing .featured .pricing-header {
+  background: url("../img/pricing/Group\ 249.png") center center no-repeat;
+  background-size: cover;
+
+}*/
 
 .pricing .featured .buy-btn {
   background: var(--color-primary);
