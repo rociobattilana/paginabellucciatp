@@ -42,6 +42,11 @@ h2 { font-family: var(--font-secondary);
 }
 
 
+h3 { font-family: var(--font-secondary);
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -2098,6 +2103,11 @@ align-items: center;
   background-image: url(/assets/img/pricing/Group\ 249.png);
   background-size: cover;
 }
+.pricing body{
+  background-color: white;
+  background-image: url(/assets/img/fondo/bg.png);
+  
+}
 
 .fondo {
   background-image: url(bg.png);
@@ -2925,9 +2935,8 @@ align-items: center;
 /*--------------------------------------------------------------
 # Blog Details Page
 --------------------------------------------------------------*/
-.blog .blog-details {
-  box-shadow: 0 4px 16px rgba(var(--color-black-rgb), 0.1);
-  padding: 30px;
+.header {
+ p
 }
 
 .blog .blog-details .post-img {
