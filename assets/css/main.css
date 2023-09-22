@@ -2121,7 +2121,7 @@ align-items: center;
 }
 
 .pricing .pricing-header {
-  background: url("assets/img/pricing/Group 249.png") center;
+  background: url("/assets/img/fondo/bg.png 249.png") center;
   background-size: cover;
   background-size: center;
   text-align: center;
@@ -2343,7 +2343,7 @@ align-items: center;
   line-height: 1;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
-  color: #163E32;
+  color: ;
 }
 
 .portfolio .portfolio-flters li:hover,
@@ -2621,7 +2621,8 @@ align-items: center;
 .contact .info h3 {
   font-weight: 600;
   font-size: 24px;
-  background-color:#163E32;
+  background-color:;
+  color: #163E32;
 }
 
 .contact .info p {
@@ -2641,6 +2642,7 @@ align-items: center;
   color: var(--color-primary);
   transition: all 0.3s ease-in-out;
   margin-right: 20px;
+  
 }
 
 .contact .info-item h4 {
@@ -2649,6 +2651,7 @@ align-items: center;
   font-weight: 600;
   margin-bottom: 5px;
   color: var(--color-secondary);
+  text-align: left;
 }
 
 .contact .info-item p {
@@ -2656,11 +2659,15 @@ align-items: center;
   margin-bottom: 0;
   font-size: 14px;
   color: var(--color-secondary-light);
+  text-align: left;
 }
 
 .contact .php-email-form {
   width: 100%;
   background: var(--color-secondary);
+  background-color: #FFEDF9;
+  border: #163E32;
+  border: 3px;
 }
 
 .contact .php-email-form .form-group {
@@ -2684,7 +2691,7 @@ align-items: center;
   display: none;
   color: var(--color-secondary);
   background: var(--color-green);
-  text-align: center;
+  text-align: left;
   padding: 15px;
   font-weight: 600;
 }
@@ -2692,7 +2699,7 @@ align-items: center;
 .contact .php-email-form .loading {
   display: none;
   background: var(--color-secondary);
-  text-align: center;
+  text-align: left;
   padding: 15px;
 }
 
@@ -2703,7 +2710,8 @@ align-items: center;
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid var(--color-green);
+  border: 3px solid var(--color-default);
+  border: 3px;
   border-top-color: var(--color-white);
   animation: animate-loading 1s linear infinite;
 }
@@ -2711,7 +2719,7 @@ align-items: center;
 .contact .php-email-form input[type=text],
 .contact .php-email-form input[type=email],
 .contact .php-email-form textarea {
-  border-radius: 0px;
+  border-radius: 3px;
   box-shadow: none;
   font-size: 14px;
   color: #163E32;
@@ -2736,15 +2744,16 @@ align-items: center;
 
 .contact .php-email-form button[type=submit] {
   background: var(--color-primary);
-  border: 0;
+  border: 4px;
   padding: 13px 50px;
   color: var(--color-white);
   transition: 0.4s;
-  border-radius: 0;
+  border-radius: 4px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
   background: rgba(var(--color-primary-rgb), 0.85);
+  border-radius: 4px;
 }
 
 @keyframes animate-loading {
@@ -2755,6 +2764,9 @@ align-items: center;
   100% {
     transform: rotate(360deg);
   }
+}
+.contact {
+  background-color: #FFEDF9;
 }
 
 /*--------------------------------------------------------------
