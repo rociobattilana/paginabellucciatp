@@ -2644,7 +2644,7 @@ align-items: center;
 .contact .info-item+.info-item {
   padding-top: 20px;
   margin-top: 20px;
-  border-top: 1px solid rgba(var(--color-secondary-rgb), 0.15);
+  border-top: 3px solid rgba(var(--color-default-rgb), 0.15);
 }
 
 .contact .info-item i {
@@ -2676,7 +2676,7 @@ align-items: center;
   width: 100%;
   background: var(--color-secondary);
   background-color: #FFEDF9;
-  border: #163E32;
+  border: 3px solid #163E32;
   border: 3px;
 }
 
@@ -2724,6 +2724,7 @@ align-items: center;
   border: 3px;
   border-top-color: var(--color-white);
   animation: animate-loading 1s linear infinite;
+  border: 3px solid #163E32;
 }
 
 .contact .php-email-form input[type=text],
@@ -2733,12 +2734,14 @@ align-items: center;
   box-shadow: none;
   font-size: 14px;
   color: #163E32;
+  border: 3px solid #163E32;;
 }
 
 .contact .php-email-form input[type=text]:focus,
 .contact .php-email-form input[type=email]:focus,
 .contact .php-email-form textarea:focus {
   border-color: var(--color-secondary-light);
+  border: 3px solid #163E32;;
 }
 
 .contact .php-email-form input[type=text],
