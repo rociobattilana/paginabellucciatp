@@ -2115,9 +2115,12 @@ align-items: center;
 }
 
 .pricing .pricing-item {
+  text-align: center;
   background-image: url(bg.png);
   background-size: cover;
   background-color: #587464;
+  text-align: center;
+  align-items: center;
   padding: 60px 40px;
   box-shadow: 0 3px 20px -2px rgba(var(--color-gray-rgb), 0.15);
   background-image: url(bg.png);
@@ -2128,6 +2131,7 @@ align-items: center;
   border-color: #FFA700;
   border-radius: 10px;
   overflow: hidden;
+  text-align: center;
 }
 
 .pricing .pricing-header {
@@ -2175,19 +2179,34 @@ align-items: center;
   color: rgba(var(--color-white), 0.6);
   font-size: 24px;
 }
-
+.pricing h5 {
+  font-size: 24px;
+  color: var(--color-white);
+  font-weight: 400;
+  font-family: var(--font-primary);
+  margin-bottom: 0;
+}
+.pricing .nav-pills {
+  font-size: ;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
 .pricing ul {
   padding: 30px 0;
   list-style: none;
   color: var(--color-white);
   text-align: center;
   line-height: 20px;
+  text-align: center;
+  align-items: center;
 }
 
 .pricing ul li {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .pricing ul i {
@@ -2195,20 +2214,24 @@ align-items: center;
   font-size: 36px;
   padding-right: 3px;
   line-height: 0;
+  text-align: center;
 }
 
 .pricing ul .na {
   color: rgba(var(--color-white), 0.5);
+  text-align: center;
 }
 
 .pricing ul .na i {
   color: rgba(var(--color-white-rgb), 0.5);
   font-size: 24px;
   padding-left: 4px;
+  text-align: center;
 }
 
 .pricing ul .na span {
   text-decoration: line-through;
+  text-align: center;
 }
 
 .pricing .buy-btn {
@@ -2247,6 +2270,12 @@ align-items: center;
 .fondo {
   background-image: url(bg.png);
   background-size: cover;
+}
+.pricing .nav-pills {
+  font-size: ;
+  color: white;
+  align-items: center;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -2741,7 +2770,8 @@ align-items: center;
 .contact .php-email-form input[type=email]:focus,
 .contact .php-email-form textarea:focus {
   border-color: var(--color-secondary-light);
-  border: 3px solid #163E32;;
+  border:3px solid #163E32;
+ 
 }
 
 .contact .php-email-form input[type=text],
