@@ -1517,15 +1517,15 @@ align-items: center;
   height: 1045px;
   flex-shrink: 0;
 }
-
+/*
 @media (max-width: 575px) {
   .magia .nav-link {
     font-size: 16px;
     }
   .magia .nav-pills {
       font-size: 16px;
-      }
-}
+      }*/
+
 
 .magia .tab-content h4 {
   font-size: 18px;
