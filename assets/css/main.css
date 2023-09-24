@@ -12,6 +12,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.pablozitarosa {
+  background-image: url("../img/beneficios/background.png") no-repeat;
+  background-size: cover;
+  
+}
 :root {
   scroll-behavior: smooth;
 }
@@ -181,6 +186,11 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+}
+.pablozitarosa {
+  background-image: url("../img/beneficios/background.png") no-repeat;
+  background-size: cover;
+  
 }
 
 /*--------------------------------------------------------------
@@ -1533,7 +1543,7 @@ align-items: center;
   color: var(--color-default);
 }
 .pablozitarosa .pablozitarosa-body {
-  background-image: url(fondo.jpg);
+  background-image: url(/assets/img/pablozitarosa/fondo.jpg);
 }
 .pablozitarosa {
   background-image: url(/assets/img/pablozitarosa/fondo.jpg);
@@ -3629,3 +3639,8 @@ align-items: center;
 }
 
 
+.pablozitarosa {
+  background-image: url("../img/beneficios/background.png") no-repeat;
+  background-size: cover;
+  
+}
