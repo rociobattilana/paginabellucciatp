@@ -2147,6 +2147,7 @@ align-items: center;
   background-image: cover;
   margin-left: 0px;
   margin-right: 0px;
+  background-image: url(/assets/img/fondo/bg.png);
   
   
 }
@@ -2273,8 +2274,8 @@ align-items: center;
   background: var(--color-primary);
   color: var(--color-white);
 }
-.fondo {
-  background-image: url(bg.png);
+.pricing-background {
+  background-image: url(/assets/img/fondo/bg.png);
   background-size: cover;
 }
 .pricing .nav-pills {
