@@ -1252,11 +1252,11 @@ align-items: center;
 }
 
 @media (max-width: 575px) {
-  .about .about-img {
+  .frase .frase-img {
     margin: 30px 0 0 30px;
   }
 
-  .about .about-img:before {
+  .frase .frase-img:before {
     inset: -30px 0 0 -30px;
   }
 }
@@ -1272,20 +1272,20 @@ align-items: center;
 }
 
 @media (max-width: 768px) {
-  .about h3 {
+  .frase h3 {
     font-size: 28px;
   }
 }
 
-.about .nav-pills {
+.frase .nav-pills {
   border-bottom: 1px solid rgba(var(--color-secondary-rgb), 0.2);
 }
 
-.about .nav-pills li+li {
+.frase .nav-pills li+li {
   margin-left: 40px;
 }
 
-.about .nav-link {
+.frase .nav-link {
   background: rgba(var(--color-primary-light), 0.8);
   font-size: 18px;
   font-weight: 400;
@@ -1296,31 +1296,38 @@ align-items: center;
   font-family: var(--font-primary);
 }
 
-.about .nav-link.active {
+.frase .nav-link.active {
   color: var(--color-white);
   background: rgba(var(--color-primary-light), 0.8);
   border-bottom: 3px solid var(--color-primary);
 }
 
 @media (max-width: 575px) {
-  .about .nav-link {
+  .frase .nav-link {
     font-size: 16px;
   }
 }
 
-.about .tab-content h4 {
+.frase .tab-content h4 {
   font-size: 18px;
   margin: 0;
   font-weight: 700;
   color: white;
 }
 
-.about .tab-content i {
+.frase .tab-content i {
   font-size: 22px;
   line-height: 0;
   margin-right: 8px;
   color: var(--color-white);
 }
+@media (max-width: 768px) 
+  .frase .p {
+    font-size: 16px;
+  }
+
+
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -2100,17 +2107,18 @@ align-items: center;
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials/Group\ 233.png") no-repeat;
+
   background-position: center center;
   background-size: cover;
   position: relative;
+  background-color: #587464;
 }
 
 .testimonials::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(var(--color-secondary-dark-rgb), 0.8);
+
 }
 
 .testimonials .section-header {
@@ -2208,7 +2216,7 @@ align-items: center;
 # Pricing Section
 --------------------------------------------------------------*/
 .fondo {
-  background size:cover: url(bg.png);
+  background size: cover: url(bg.png);
 }
 /*--------------------------------------------------------------
 # Pricing Section
@@ -3596,6 +3604,7 @@ align-items: center;
   background-size: cover;
   background-color: #163E32;
   align-items: center;
+  text-align: center;
   
 }
 
@@ -3611,6 +3620,14 @@ align-items: center;
     margin-left: 0px;
   }
 
+  /*--------------------------------------------------------------
+# opciones
+--------------------------------------------------------------*/
+.opciones{
+  align-items: center;
+}
+
+  
 
 
   /*--------------------------------------------------------------
