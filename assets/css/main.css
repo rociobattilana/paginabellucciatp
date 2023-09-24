@@ -17,6 +17,7 @@
   scroll-behavior: smooth;
 }
 
+
 a {
   color: var(--color-default);
   text-decoration: none;
@@ -1432,6 +1433,10 @@ align-items: center;
   position: relative;
   margin: 60px 0 0 60px;
  
+}
+.magia .nav-pills {
+ color: #163E32;
+
 }
 
 
@@ -3568,6 +3573,21 @@ align-items: center;
   color: var(--color-white);
 }
 /*--------------------------------------------------------------
+# propack
+--------------------------------------------------------------*/
+.propack {
+  color: #163E32;
+  background-color: #FFE9E9;
+}
+.propack h5 {
+  color: #163E32;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
 # seleccion
 --------------------------------------------------------------*/
 .seleccion {
@@ -3594,7 +3614,7 @@ align-items: center;
 
 
   /*--------------------------------------------------------------
-# Footer
+# Pelicula
 --------------------------------------------------------------*/
   .Pelicula{
     background-color: rgba(var(--color-primary), 0.8);
