@@ -12,11 +12,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-.pablozitarosa {
-  background-image: url("../img/beneficios/background.png") no-repeat;
-  background-size: cover;
-  
-}
+
 :root {
   scroll-behavior: smooth;
 }
@@ -96,6 +92,10 @@ h3 { font-family: var(--font-secondary);
     left: calc(50% - 36px);
     opacity: 0;
   }
+}
+a {
+  color: var(--color-default);
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
@@ -186,11 +186,6 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
-}
-.pablozitarosa {
-  background-image: url("../img/beneficios/background.png") no-repeat;
-  background-size: cover;
-  
 }
 
 /*--------------------------------------------------------------
@@ -1430,6 +1425,110 @@ align-items: center;
   background-size: cover;
 }
  
+/*--------------------------------------------------------------
+# Magia Section
+--------------------------------------------------------------*/
+.magia .magia-img {
+  position: relative;
+  margin: 60px 0 0 60px;
+ 
+}
+
+
+.magia .magia-img:before {
+  position: absolute;
+  inset: -60px 0 0 -60px;
+  z-index: -1;
+  content: "";
+  background: url("../img/beneficios/background.png") top left;
+  background-color: #163E32;
+  background-repeat: no-repeat;
+}
+.magia .magia-img.about-img:beneficios {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+@media (max-width: 575px) {
+  .magia .magia-img {
+    margin: 30px 0 0 30px;
+  }
+
+  .magia .magia-img:before {
+    inset: -30px 0 0 -30px;
+  }
+}
+
+.magia h3 {
+  color: #163E32;
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #163E32;;
+  -ms-grid-column-align: center;
+}
+
+@media (max-width: 768px) {
+  .magia h3 {
+    font-size: 28px;
+  }
+}
+
+.magia .nav-pills {
+  border-bottom: 1px solid rgba(var(--color-secondary-rgb), 0.2);
+}
+
+.magia .nav-pills li+li {
+  margin-left: 40px;
+}
+
+.magia .nav-link {
+  background: rgba(var(--color-secondary), 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-default);
+  padding: 12px 0;
+  margin-bottom: -2px;
+  border-radius: 0;
+  font-family: var(--font-primary);
+}
+
+.magia .nav-link.active {
+  color: var(--color-default);
+  background: color rgba(var(--color-secondary), 0.8);
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.magia-background {
+  background-color: #163E32;
+  width: 1645px;
+  height: 1045px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 575px) {
+  .magia .nav-link {
+    font-size: 16px;
+  }
+}
+
+.magia .tab-content h4 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+  color: rgba(var(--color-default-rgb), 0.4);
+}
+
+.magia .tab-content i {
+  font-size: 22px;
+  line-height: 0;
+  margin-right: 8px;
+  color: var(--color-default);
+}
+.magia .magia-background {
+  background-color: rgba(var(--color-primary-dark-rgb), 0.85);
+  background-size: cover;
+}
 /*--------------------------------------------------------------
 # Pablozitarosa
 --------------------------------------------------------------*/
@@ -3467,6 +3566,32 @@ align-items: center;
 .blog .blog-pagination li:hover a {
   color: var(--color-white);
 }
+/*--------------------------------------------------------------
+# seleccion
+--------------------------------------------------------------*/
+.seleccion {
+  color: var(--color-white);
+  background-image: url(/assets/img/fondo/bg.png);
+  background-size: cover;
+  background-color: #163E32;
+  align-items: center;
+  
+}
+
+  .seleccion .seleccion {
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 0px;
+  }
+ 
+  
+  
 
 /*--------------------------------------------------------------
 # Footer
@@ -3639,8 +3764,3 @@ align-items: center;
 }
 
 
-.pablozitarosa {
-  background-image: url("../img/beneficios/background.png") no-repeat;
-  background-size: cover;
-  
-}
