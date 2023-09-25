@@ -3105,6 +3105,12 @@ align-items: center;
 .header {
  p
 }
+.blog .blog-details .h1 { 
+  font-family: var(--font-secondary);
+}
+.blog .blog-details .h2 { 
+  font-family: var(--font-secondary);
+}
 
 .blog .blog-details .post-img {
   margin: -30px -30px 20px -30px;
@@ -3659,6 +3665,15 @@ align-items: center;
   .opciones .p {
     font-size: 16px;
   }
+}
+.opciones.h1 { 
+  font-family: var(--font-secondary);
+}
+.opciones.h2 { 
+  font-family: var(--font-secondary);
+}
+.opciones.h3 { 
+  font-family: var(--font-secondary);
 }
 
 
