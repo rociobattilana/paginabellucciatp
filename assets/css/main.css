@@ -2233,6 +2233,30 @@ align-items: center;
   background-image: url(/assets/img/fondo/bg.png);
   
 }
+/*--------------------------------------------------------------
+* Estilo para las imágenes dentro de los contenedores */
+
+.pricing-item img {
+  width: 100%;
+  height: auto;
+  display: block; /* Elimina el espacio debajo de las imágenes */
+  margin: 0; /* Elimina cualquier margen que pueda haber */
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* Elimina los márgenes y relleno en el contenedor y sus elementos internos */
+.pricing-item {
+  text-align: center;
+  margin: 0; /* Elimina márgenes */
+  padding: 0; /* Elimina relleno */
+}
+
+.pricing-item img {
+  display: block;
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
 
 .fondo {
   background-image: url(bg.png);
@@ -2246,7 +2270,7 @@ align-items: center;
   background-color: #587464;
   text-align: center;
   align-items: center;
-  padding: 60px 40px;
+  padding: 
   box-shadow: 0 3px 20px -2px rgba(var(--color-gray-rgb), 0.15);
   background-image: url(bg.png);
   height: 100%;
@@ -2410,6 +2434,18 @@ align-items: center;
   align-items: center;
   text-align: center;
 }
+/* Elimina los márgenes y relleno en el contenedor y sus elementos internos */
+.pricing-item {
+  text-align: center; !important
+  margin: 0; /* Elimina márgenes */ !important
+  padding: 0; /* Elimina relleno */!important
+}
+
+.pricing-item img {
+  display: block;
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
 
 /*--------------------------------------------------------------
 # F.A.Q Section
