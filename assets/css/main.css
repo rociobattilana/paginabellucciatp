@@ -3629,7 +3629,39 @@ align-items: center;
 --------------------------------------------------------------*/
 .opciones{
   align-items: center;
+  text-align: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: center;
+  margin-left: 0px;
+  text-align: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: center;
+  margin-left: 0px;
 }
+@media (max-width: 575px) {
+  .opciones .opciones-img {
+    margin: 30px 0 0 30px;
+  }
+
+  .opciones .opciones:before {
+    inset: -30px 0 0 -30px;
+  }
+  .opciones .p {
+    font-size: 16px;
+  }
+}
+
+  
 
   
 
