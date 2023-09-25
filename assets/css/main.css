@@ -2269,8 +2269,7 @@ align-items: center;
   background-size: cover;
   background-color: #587464;
   text-align: center;
-  align-items: center;
-  padding: 
+  align-items: center; 
   box-shadow: 0 3px 20px -2px rgba(var(--color-gray-rgb), 0.15);
   background-image: url(bg.png);
   height: 100%;
@@ -2291,7 +2290,6 @@ align-items: center;
   text-align: center;
   align-items: center;
   padding: 0px;
-  margin: -60px -40px 0;
   size-adjust: flex;
   background-image: cover;
   margin-left: 0px;
