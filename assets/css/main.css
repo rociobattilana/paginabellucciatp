@@ -2762,6 +2762,42 @@ align-items: center;
   inset: auto 10px 0 10px;
 }
 
+/* Estilo base para la galería */
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+  gap: 10px; /* Espacio entre elementos */
+}
+
+.portfolio-item {
+  position: relative;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ajustar el número de columnas en pantallas más pequeñas */
+@media (max-width: 992px) {
+  .portfolio-container {
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas en pantallas medianas */
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas pequeñas */
+  }
+}
+
+@media (max-width: 576px) {
+  .portfolio-container {
+    grid-template-columns: repeat(1, 1fr); /* 1 columna en pantallas muy pequeñas */
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
