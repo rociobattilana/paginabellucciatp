@@ -2277,10 +2277,11 @@ align-items: center;
   flex-direction: column;
   border: 4px solid;
   border-color: #FFA700;
-  border-radius: 10px;
+  border-radius: 45px;
   overflow: hidden;
   text-align: center;
   margin-left: 0px;
+  padding-bottom: 4px;
 }
 
 .pricing .pricing-header {
@@ -2296,6 +2297,7 @@ align-items: center;
   margin-right: 0px;
   background-image: url(/assets/img/fondo/bg.png);
   background-image: url(assets/img/fondo/bg.png);
+  width: 100%;
   
   
 }
