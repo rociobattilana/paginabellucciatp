@@ -460,7 +460,7 @@
     </section><!-- End About Section -->
 
      <!-- ======= Featured Services Section ======= -->
-     <section id="about" class="about">
+     <section id="pasos" class="pasos">
       <div class="container" data-aos="fade-up"> 
         <div class="section-header">
           <em><h3>Tan solo 4 pasos</h2></em>
@@ -520,6 +520,34 @@
           <!-- End Service Item -->
 
         </div>
+        <!-- Agrega esto en la sección head de tu HTML para definir estilos -->
+<style>
+  .container {
+    max-width: 100%; /* Hace que el contenedor se ajuste al ancho de la pantalla */
+    padding: 0 20px; /* Agrega un relleno a los lados para evitar que el contenido esté pegado a los bordes en pantallas pequeñas */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+  }
+
+  .row {
+    display: flex; /* Usa Flexbox para organizar los elementos en una fila */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+    justify-content: center; /* Centra los elementos horizontalmente */
+  }
+
+  .col-sm-1 {
+    flex: 1; /* Hace que las columnas ocupen un espacio igual */
+    max-width: calc(33.33% - 40px); /* Ajusta el ancho de las columnas según el número de columnas que quieras mostrar por fila */
+    margin: 10px; /* Agrega un margen entre las columnas */
+  }
+
+  /* Agrega media queries para ajustar los estilos según el tamaño de la pantalla */
+  @media (max-width: 768px) {
+    .col-sm-1 {
+      max-width: calc(50% - 20px); /* Cambia el ancho de las columnas para pantallas más pequeñas */
+    }
+  }
+</style>
+
 
       </div>
     </section>

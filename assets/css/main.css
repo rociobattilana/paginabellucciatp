@@ -1433,6 +1433,115 @@ align-items: center;
   background-size: cover;
 }
  
+
+
+/*--------------------------------------------------------------
+# pasos Section
+--------------------------------------------------------------*/
+.pasos .pasos-img {
+  position: relative;
+  margin: 60px 0 0 60px;
+ 
+}
+
+
+.pasos .pasos img:before {
+  position: absolute;
+  inset: -60px 0 0 -60px;
+  z-index: -1;
+  content: "";
+  background: url("../img/beneficios/background.png") top left;
+  background-color: #163E32;
+  background-repeat: no-repeat;
+}
+.pasos .pasos-img:beneficios {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+@media (max-width: 575px) {
+  .pasos .pasos-img {
+    margin: 30px 0 0 30px;
+  }
+
+  .pasos .pasos-img:before {
+    inset: -30px 0 0 -30px;
+  }
+}
+
+.pasos h3 {
+  color: #163E32;
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #163E32;;
+  -ms-grid-column-align: center;
+}
+
+@media (max-width: 768px) {
+  .pasos h3 {
+    font-size: 28px;
+  }
+}
+
+.pasos .pasos-pills {
+  border-bottom: 1px solid rgba(var(--color-secondary-rgb), 0.2);
+}
+
+.pasos .pasos-pills li+li {
+  margin-left: 40px;
+}
+
+.pasos .nav-link {
+  background: rgba(var(--color-secondary), 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-default);
+  padding: 12px 0;
+  margin-bottom: -2px;
+  border-radius: 0;
+  font-family: var(--font-primary);
+}
+
+.pasos .nav-link.active {
+  color: var(--color-default);
+  background: color rgba(var(--color-secondary), 0.8);
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.pasos-background {
+  background-color: #163E32;
+  width: 1645px;
+  height: 1045px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 575px) {
+  .pasos .nav-link {
+    font-size: 16px;
+  }
+}
+
+.pasos .tab-content h4 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+  color: rgba(var(--color-default-rgb), 0.4);
+}
+
+.pasos .tab-content i {
+  font-size: 22px;
+  line-height: 0;
+  margin-right: 8px;
+  color: var(--color-default);
+}
+.pasos .pasos-background {
+  background-color: rgba(var(--color-primary-dark-rgb), 0.85);
+  background-size: cover;
+}
+
+
+ 
 /*--------------------------------------------------------------
 # Magia Section
 --------------------------------------------------------------*/
@@ -2030,7 +2139,12 @@ align-items: center;
     opacity: 1;
   }
 }
-
+ @media (min-width: 768px) {
+ .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
