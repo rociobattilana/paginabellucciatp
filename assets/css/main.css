@@ -1220,7 +1220,9 @@ align-items: center;
 
 .featured-services .service-item p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: var(--bs-body-font-size);
+  font-weight:var(--bs-body-font-weight) ;
+
   margin-bottom: 0;
   align-items: center;
 }
@@ -2478,6 +2480,7 @@ align-items: center;
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 .pricing ul i {
@@ -2486,6 +2489,7 @@ align-items: center;
   padding-right: 3px;
   line-height: 0;
   text-align: center;
+  justify-content: center;
 }
 
 .pricing ul .na {
@@ -2498,6 +2502,7 @@ align-items: center;
   font-size: 24px;
   padding-left: 4px;
   text-align: center;
+  justify-content: center;
 }
 
 .pricing ul .na span {
