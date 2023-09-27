@@ -805,6 +805,8 @@
 
 
 
+
+
 <!--<style>
   @media (min-width: 768px) {
     /* Aplicar estilos solo en pantalla grande (768px o más) */
@@ -1269,6 +1271,16 @@
 
       </div>
     </div>
+    <style>
+      /* Estilos personalizados para las columnas en todas las pantallas */
+      .col-lg-3,
+      .col-md-6 {
+       flex: 0 0 25%; /* Establece un ancho fijo del 25% para cada columna */
+       max-width: 25%; /* Evita que las columnas se hagan más grandes en pantallas grandes */
+      }
+
+    </style>
+
 
   </footer><!-- End Footer -->
 
