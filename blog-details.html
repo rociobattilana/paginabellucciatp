@@ -287,55 +287,94 @@
           
         </div>
      
-     <section id="featured-services" class="featured-services">
-      <div class="container">
+        <section id="featured-services" class="featured-services">
+          <div class="container">
+            <div class="row gy-4 justify-content-center">
+        
+              <div class="col d-flex" data-aos="zoom-out">
+                <div class="service-item position-relative text-center mx-auto">
+                  <img src="assets/img/recibir/Group 315.png" alt="img-fluid img">
+                  <br><br>
+                  <h4><a href="#" class="stretched-link">3 botellas</a></h4>
+                  <p>Para que compartas entre amigos y familia!!</p>
+                </div>
+              </div><!-- End Service Item -->
+        
+              <div class="col d-flex" data-aos="zoom-out" data-aos-delay="200">
+                <div class="service-item position-relative text-center mx-auto">
+                  <div class="icon">
+                    <img src="assets/img/recibir/Group 316.png" alt="img-fluid img">
+                  </div>
+                  <h4><a href="#" class="stretched-link">3 ingredientes</a></h4>
+                  <p>Para que deleites con unos riquísimos tragos!</p>
+                </div>
+              </div><!-- End Service Item -->
+        
+              <div class="col d-flex" data-aos="zoom-out" data-aos-delay="400">
+                <div class="service-item position-relative text-center mx-auto">
+                  <img src="assets/img/recibir/Group 317.png" alt="img-fluid img">
+                  <br><br>
+                  <h4><a href="#" class="stretched-link">Regalo especial</a></h4>
+                  <p>Utensillo sorpresa para facilitarte el armado!!</p>
+                </div>
+              </div><!-- End Service Item -->
+        
+              <div class="col d-flex" data-aos="zoom-out" data-aos-delay="600">
+                <div class="service-item position-relative text-center mx-auto">
+                  <img src="assets/img/recibir/Group 318.png" alt="img-fluid img">
+                  <br><br>
+                  <h4><a href="#" class="stretched-link">Youtube</a></h4>
+                  <p>Tips para que tus tragos sean de cuento!!</p>
+                </div>
+              </div><!-- End Service Item -->
+        
+            </div><!-- End Row -->
+          </div><!-- End Container -->
+        </section>
+      <style>
+        .featured-services .featured-services-container {
+          max-width: 100%; /* Hace que el contenedor se ajuste al ancho de la pantalla */
+          padding: 0 20px; /* Agrega un relleno a los lados para evitar que el contenido esté pegado a los bordes en pantallas pequeñas */
+          margin: 0 auto; /* Centra el contenedor horizontalmente */
+        }
+      
+        .featured-services .featured-services-row {
+          display: flex; /* Usa Flexbox para organizar los elementos en una fila */
+          flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+          justify-content: center; /* Centra los elementos horizontalmente */
+        }
+      
+        .featured-services .featured-services-col-sm-1 {
+          flex: 1; /* Hace que las columnas ocupen un espacio igual */
+          max-width: calc(33.33% - 40px); /* Ajusta el ancho de las columnas según el número de columnas que quieras mostrar por fila */
+          margin: 10px; /* Agrega un margen entre las columnas */
+        }
+      
+        /* Agrega media queries para ajustar los estilos según el tamaño de la pantalla */
+        @media (max-width: 768px) {
+          .featured-services .featured-services-col-sm-1 {
+            max-width: calc(60px - 30px); /* Cambia el ancho de las columnas para pantallas más pequeñas */
+            text-align: center;
+            align-items: center;
+            margin: 0 auto;
+            justify-content: center;
+            flex: 1;
+          }
+        }
+          .h3 {
+            text-justify: center;
+          }
+          .p{
+            text-justify: center;
+        
 
-        <div class="row gy-4">
+        }
+      </style>
 
-          <div class="col-sm-1 col-sm-3 d-flex" data-aos="zoom-out">
-            <div class="service-item position-relative">
-              <img src="assets/img/recibir/Group 315.png " alt="img-fluid img"> 
-              <br>
-              <br>
-              <h4><a href="" class="stretched-link">3 botellas de 700 ml</a></h4>
-              <p>Para que compartas entre familia y amigos!!</p>
-            </div>
-          </div><!-- End Service Item -->
 
-          <div class="col-sm-1 col-sm-3 d-flex" data-aos="zoom-out" data-aos-delay="200">
-            <div class="service-item position-relative">
-            <div class="icon">
-              <img src="assets/img/recibir/Group 316.png" alt="img-fluid img"></div>
-             <!-- <img src="assets/img/iconos/Group 120.png " alt="img-fluid img">-->
-              <h4><a href="" class="stretched-link">3 ingredientes</a></h4>
-              <p>Para que deleites con unos ríquisimos tragos.</p>
-            </div>
-          </div><!-- End Service Item -->
 
-          <div class="col-sm-1 col-sm-3 d-flex" data-aos="zoom-out" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <!--<div class="icon"><i class="bi bi-calendar4-week icon"></i></div>-->
-              <img src="assets/img/recibir/Group 317.png" alt="img-fluid img">
-           
-              <h4><a href="" class="stretched-link">Un regalo especial</a></h4>
-              <p>Utensillos sorpresa para facilitarte el armado!!.</p>
-            </div>
-          </div><!-- End Service Item -->
 
-          <div class="col-sm-1 col-sm-3 d-flex" data-aos="zoom-out" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <!--<div class="icon"><i class="bi bi-broadcast icon"></i></div> -->
-              <img src="assets/img/recibir/Group 318.png" alt="img-fluid img"> 
-              <br>
-              <br>
-              <h4><a href="" class="stretched-link">Free pass a Youtube</a></h4>
-              <p>Tips para que tus tragos sean de cuento!!</p>
-            </div>
-          </div><!-- End Service Item -->
 
-        </div>
-
-      </div>
     </section>
   </section>
     <!-- End Featured Services Section -->
@@ -432,14 +471,14 @@
 
       <div class="row gy-4">
 
-        <div class="col-sm-1 col-sm-3 d-flex" data-aos="zoom-out">
+        <div class="col d-flex" data-aos="zoom-out">
           <div class="service-item position-relative">
             <img src="assets/img/metodospago/pay pal logo blanco 1.png " alt="img-fluid img"> 
 
           </div>
         </div><!-- End Service Item -->
 
-        <div class="col-sm-1 col-sm-3 d-flex" data-aos="zoom-out" data-aos-delay="200">
+        <div class="col d-flex" data-aos="zoom-out" data-aos-delay="200">
           <div class="service-item position-relative">
           <div class="icon">
             <img src="assets/img/metodospago/visa blanco 1.png" alt="img-fluid img"></div>
@@ -447,7 +486,7 @@
           </div>
         </div><!-- End Service Item -->
 
-        <div class="col-sm-1 col-sm-3 d-flex" data-aos="zoom-out" data-aos-delay="400">
+        <div class="col d-flex" data-aos="zoom-out" data-aos-delay="400">
           <div class="service-item position-relative">
             <!--<div class="icon"><i class="bi bi-calendar4-week icon"></i></div>-->
 
@@ -455,7 +494,7 @@
           </div>
         </div><!-- End Service Item -->
 
-        <div class="col-sm-1 col-sm-3 d-flex" data-aos="zoom-out" data-aos-delay="600">
+        <div class="col d-flex" data-aos="zoom-out" data-aos-delay="600">
           <div class="service-item position-relative">
             <img src="assets/img/metodospago/mastercard blanca 1.png" alt="img-fluid img"> 
           </div>
@@ -463,12 +502,93 @@
         <!-- End Service Item -->
 
       </div>
+      <style>
+        .metodospago {
+  background-color: #587464;
+  text-align: center; /* Para centrar el contenido horizontalmente */
+  padding: 20px; /* Añade espaciado alrededor del contenido */
+}
+
+/* Estilos para las imágenes de métodos de pago */
+.service-item img {
+  max-width: 100%; /* Asegura que las imágenes no se desborden */
+  height: auto; /* Mantiene la proporción de aspecto */
+  min-width: 60px;
+  
+}
+
+/* Estilos para el encabezado */
+.section-header {
+  margin-bottom: 20px; /* Agrega espacio entre el encabezado y las imágenes */
+}
+
+/* Estilos para los servicios destacados */
+.featured-services {
+  margin-top: 20px; /* Agrega espacio entre la sección de métodos de pago y otros elementos */
+}
+
+/* Estilos para los iconos de métodos de pago */
+.service-item {
+  flex: 1; /* Hace que los elementos ocupen todo el espacio disponible horizontalmente */
+  padding: 10px; /* Agrega espacio alrededor de cada elemento */
+}
+
+/* Estilos para el texto blanco */
+.text-white {
+  color: #fff;
+}
+/* En tu archivo de estilos CSS */
+.featured-services {
+  width: 100%; /* El ancho de la sección es el 100% del contenedor principal */
+}
+
+.service-item {
+  width: 25%; /* El ancho de cada servicio es el 25% del contenedor */
+}
+/* Estilos generales para pantallas más grandes */
+.service-item {
+  width: 25%; /* El ancho de cada servicio es el 25% del contenedor */
+}
+/* Establece box-sizing en border-box para incluir el padding en el tamaño total */
+.service-item {
+  box-sizing: border-box;
+  width: 25%; /* El ancho de cada servicio es el 25% del contenedor */
+  padding: 30px; /* Agrega espacio alrededor de cada elemento */
+  z-index: 1;
+}
+
+/* Estilos para pantallas medianas */
+@media (max-width: 768px) {
+  .service-item {
+    width: 30%; /* El ancho se ajusta al 50% en pantallas medianas */
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 480px) {
+  .service-item {
+    width: 100%; /* El ancho se ajusta al 100% en pantallas pequeñas */
+  }
+}
+
+
+      </style>
+      
 
     </div>
   </section>
 </section>
 
 <!-- End Service Item -->
+
+
+
+
+
+
+
+
+
 
 
 <!-- Pelicula-->
@@ -487,7 +607,7 @@
 
       <div class="col-lg-5 col-sm-6 order-first order-sm-last d-flex align-items-center">
         <div class="img">
-          <img src="assets/img/pelicula/Group 290.png" class="img-fluid" alt="">
+          <img src="assets/img/pelicula/Group 335.png" class="img-fluid" alt="">
         </div>
       </div>
 
