@@ -2767,6 +2767,20 @@ align-items: center;
   opacity: 1;
   inset: auto 10px 0 10px;
 }
+@media (max-width: 575px) {
+  .portfolio .portfolio-flters li {
+    font-size: 14px;
+    margin: 0 5px;
+  }
+  .noMobile {
+  display: hidden
+}
+}
+@media (max-width: 768px) {
+  .noMobile {
+    display: hidden
+  }
+}
 
 
 
