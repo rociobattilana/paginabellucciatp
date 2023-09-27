@@ -796,6 +796,7 @@
     }
   }
 </style>
+</section>
 
 
 
@@ -1198,7 +1199,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          <div class="footer-col-lg-3 col-md-6">
             <div class="footer-info">
               <h3>Bartender Club</h3>
               <p>
@@ -1210,7 +1211,7 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <div class="footer-col-lg-3 col-md-6 footer-links">
             <h4>Links Útiles</h4>
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="#">INICIO</a></li>
@@ -1221,7 +1222,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="footer-col-lg-3 col-md-6 footer-links">
             <h4>Información</h4>
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="#">Reembolso y devoluciones</a></li>
@@ -1232,7 +1233,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <div class="footer-col-lg-3 col-md-6 footer-newsletter">
             <h4>Newsletter</h4>
             <p>Se el primero en enterarse de nuestras promociones!!</p>
             <form action="" method="post">
@@ -1273,11 +1274,43 @@
     </div>
     <style>
       /* Estilos personalizados para las columnas en todas las pantallas */
-      .col-lg-3,
-      .col-md-6 {
-       flex: 0 0 25%; /* Establece un ancho fijo del 25% para cada columna */
+      .footer-col-lg-3,
+      .footer-col-md-6 {
+       flex: 0 0 10%; /* Establece un ancho fijo del 25% para cada columna */
        max-width: 25%; /* Evita que las columnas se hagan más grandes en pantallas grandes */
       }
+      /* Estilos para el pie de página en pantallas grandes (mayor de 992px de ancho) */
+      @media (min-width: 992px) {
+      /* Establece un ancho fijo para las columnas en pantallas grandes */
+       .footer-col-lg-3,
+       .footer-col-md-6 {
+         flex: 0 0 25%;
+         max-width: 25%;
+        }
+      }
+
+/* Estilos para el pie de página en pantallas medianas (entre 768px y 991px de ancho) */
+      @media (min-width: 768px) and (max-width: 991px) {
+        .footer-col-lg-3,
+       .footer-col-md-6 {
+         flex: 0 0 0;
+         max-width: 100%;
+        }
+      
+  /* Puedes ajustar los estilos aquí según tus necesidades para pantallas medianas */
+    }
+
+/* Estilos para el pie de página en pantallas pequeñas (menos de 768px de ancho) */
+      @media (max-width: 767px) {
+        .footer-col-lg-3,
+       .footer-col-md-6 {
+         flex: 0 0 25%;
+         max-width: 100%;
+        }
+      
+  /* Puedes ajustar los estilos aquí según tus necesidades para pantallas pequeñas */
+   }
+
 
     </style>
 
