@@ -186,6 +186,7 @@
     <!-- ======= Hero Section ======= -->
   
       <section section id="propack" class="propack"> 
+        <div class="propa-bg"></div>
         <div class="breadcrumbs">
      
           <div class="opacity-0"></div>
@@ -205,12 +206,14 @@
                     
               }
               .breadcrumbs {
-    padding: 15px 0;
-    background: transparent;
-    min-height: 40px;
-    margin-top: 76px;
-}
+                padding: 15px 0;
+                background: transparent;
+                min-height: 40px;
+                margin-top: 76px;
+              }
               
+              
+               
 
             </style>
             
@@ -254,6 +257,7 @@
                   font-family: var(--font-primary);
                   width: 160px;
                   text-align: center;
+
                   
                   
 
@@ -261,8 +265,40 @@
                   
                 .propack{ 
                     background-image: url(assets/img/pablozitarosa/fondo.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: 100vh;
+                    width: 100%;
 
                 }
+                @media (max-width: 767px) {
+                 .propack {
+                  background-image: hidden;
+                  background-size: cover;
+                  background-color: var(--color-primary-dark);
+                  background-repeat: no-repeat;
+                
+                  width: 100%;
+                  z-index: -1;
+                  
+                }
+                }
+
+                
+
+  /* Estilos para el color de fondo en pantallas pequeñas dentro de una media query */
+                @media (max-width: 767px) {
+                 .propack .propa-bg-image {
+                 display: none; /* Oculta la imagen de fondo en pantallas pequeñas */
+                }
+
+                .propack-body {
+                background-color: var(--color-primary-dark); /* Cambia esto al color que desees */
+                }
+              }   
+                       
+                
+              
 
 
                   
@@ -271,6 +307,7 @@
                   
 
               </style>
+              
               <a class="button-suscribirse" href="index.html#boxes">Suscribite</a>
 
               
@@ -288,6 +325,14 @@
           </div>
   
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <br>
         <br>
         <br>
