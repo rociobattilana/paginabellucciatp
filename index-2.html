@@ -2486,6 +2486,12 @@
 }
 
 /* Media query para pantallas pequeñas (ejemplo: dispositivos móviles) */
+
+@media (max-width: 768px) {
+  footer {
+    margin-left: 20px; /* Ajusta el valor del margen a tu preferencia */
+  }
+}
 @media (max-width: 768px) {
     /* Estilos para el campo de entrada de correo electrónico en pantallas pequeñas */
     .footer-input[type="email"] {
@@ -2497,6 +2503,33 @@
         width: 100%; /* Ocupa todo el ancho de la pantalla */
     }
 }
+/* Media query para pantallas pequeñas (menos de 768px de ancho) */
+@media (max-width: 767px) {
+  /* Estilos para el formulario de newsletter en pantallas pequeñas */
+  .footer-newsletter {
+    flex: 0 0 100%; /* Ocupa el 100% del ancho disponible */
+    max-width: 100%;
+  }
+
+  /* Asegúrate de que los elementos internos también ocupen el 100% del ancho */
+  .footer-newsletter form {
+    width: 100%;
+  }
+
+  /* Estilos adicionales si es necesario */
+  /* Por ejemplo, puedes ajustar el margen, el espaciado y otros estilos aquí */
+}
+.footer{
+  background-color: rgba(var(--color-default), 0.8);
+  background-size: cover;
+}  
+@media (max-width: 767px) {
+  /* Estilos para el formulario de newsletter en pantallas pequeñas */
+  .footer {
+    background-color: rgba(var(--color-default), 0.8);
+    background-size: cover;
+  }
+
 
 
 
