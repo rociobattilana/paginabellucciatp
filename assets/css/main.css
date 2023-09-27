@@ -3973,12 +3973,17 @@ align-items: center;
   padding: 6px 10px;
   position: relative;
   border-radius: 0px;
+  text-align: center;
 }
 
 .footer .footer-content .footer-newsletter form input[type=email] {
   border: 0;
   padding: 4px;
   width: calc(100% - 110px);
+  width: auto;
+  max-width: 300px; /* Ancho máximo en pantallas grandes */
+   
+
 }
 
 .footer .footer-content .footer-newsletter form input[type=email]:focus-visible {
@@ -4037,6 +4042,21 @@ align-items: center;
 .footer .footer-legal .social-links a:hover {
   background: var(--color-primary);
   text-decoration: none;
+}
+@media (max-width: 768px) {
+  /* Estilos para el campo de entrada de correo electrónico en pantallas pequeñas */
+  .footer-input[type="email"] {
+      width: 100%; /* Ocupa todo el ancho de la pantalla */
+  }
+  
+  /* Estilos para el botón de envío en pantallas pequeñas */
+  .footer-input[type="submit"] {
+      width: 100%; /* Ocupa todo el ancho de la pantalla */
+  }
+  .footer{
+    align-items: center;
+    
+}
 }
 
 
