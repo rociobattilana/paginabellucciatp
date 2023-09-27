@@ -1206,7 +1206,9 @@
   <!--</main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
+  <div class="bg-default">
+    <footer id="footer" class="footer" class="bg-default">
+      <div class="bg-default">
 
     <div class="footer-content">
       <div class="container">
@@ -1323,6 +1325,88 @@
       
   /* Puedes ajustar los estilos aquí según tus necesidades para pantallas pequeñas */
    }
+   .footer .footer-content .footer-newsletter form {
+    margin-top: 30px;
+    background: var(--color-white);
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px;
+   }
+   form {
+    text-align: center;
+    
+   }
+   /* Estilos generales del formulario */
+.footer-form {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Estilos para el campo de entrada de correo electrónico en pantallas grandes */
+.footer-input[type="email"] {
+    width: auto; /* Ancho automático */
+    max-width: 300px; /* Ancho máximo en pantallas grandes */
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el botón de envío en pantallas grandes */
+.footer-input[type="submit"] {
+    background-color: rgba(var(--color-primary-rgb), 0.2)
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Media query para pantallas pequeñas (ejemplo: dispositivos móviles) */
+
+@media (max-width: 768px) {
+  footer {
+    margin-left: 20px; /* Ajusta el valor del margen a tu preferencia */
+  }
+}
+@media (max-width: 768px) {
+    /* Estilos para el campo de entrada de correo electrónico en pantallas pequeñas */
+    .footer-input[type="email"] {
+        width: 100%; /* Ocupa todo el ancho de la pantalla */
+    }
+    
+    /* Estilos para el botón de envío en pantallas pequeñas */
+    .footer-input[type="submit"] {
+        width: 100%; /* Ocupa todo el ancho de la pantalla */
+    }
+}
+/* Media query para pantallas pequeñas (menos de 768px de ancho) */
+@media (max-width: 767px) {
+  /* Estilos para el formulario de newsletter en pantallas pequeñas */
+  .footer-newsletter {
+    flex: 0 0 100%; /* Ocupa el 100% del ancho disponible */
+    max-width: 100%;
+  }
+
+  /* Asegúrate de que los elementos internos también ocupen el 100% del ancho */
+  .footer-newsletter form {
+    width: 100%;
+  }
+
+  /* Estilos adicionales si es necesario */
+  /* Por ejemplo, puedes ajustar el margen, el espaciado y otros estilos aquí */
+}
+.footer{
+  background-color: rgba(var(--color-default), 0.8);
+  background-size: cover;
+}  
+@media (max-width: 767px) {
+  /* Estilos para el formulario de newsletter en pantallas pequeñas */
+  .footer {
+    background-color: rgba(var(--color-default), 0.8);
+    background-size: cover;
+  }
+}
+
 
 
     </style>
