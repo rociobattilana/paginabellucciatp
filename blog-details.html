@@ -186,7 +186,7 @@
     <!-- ======= Hero Section ======= -->
   
       <section section id="propack" class="propack"> 
-        <div class="propa-bg"></div>
+        <div class="propack-bg">
         <div class="breadcrumbs">
      
           <div class="opacity-0"></div>
@@ -211,10 +211,21 @@
                 min-height: 40px;
                 margin-top: 76px;
               }
-              .propack{
+              .propack-bg{
                 background-image: url(/assets/img/pablozitarosa/fondo.jpg);
               }
-              
+              .propack{
+                background-image: url(assets/img/pablozitarosa/fondo.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+              }
+              @media screen (max-width: 768px) {
+                .propack-bg{
+                  background-image: hidden;
+                  background-color: rgba(var(--color-primary-dark), 0.2);
+                }
+                
+              }
               
                
 
@@ -297,6 +308,7 @@
             </div>
     
           </div>
+        </div>
   
         </div>
         <br>
